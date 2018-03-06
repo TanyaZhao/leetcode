@@ -152,10 +152,10 @@ class Tree(object):
 
 if __name__ == '__main__':
     """主函数"""
-    elems = range(10)           #生成十个数据作为树节点
-    tree = Tree()          #新建一个树对象
+    elems = range(10)      # 生成十个数据作为树节点
+    tree = Tree()          # 新建一个树对象
     for elem in elems:
-        tree.add(elem)           #逐个添加树的节点
+        tree.add(elem)     # 逐个添加树的节点
 
     print '\n\n队列实现层次遍历:'
     tree.level_queue(tree.root)
