@@ -43,4 +43,4 @@ def countRange(nums, length, start, end):
     return count
 
 
-print getDuplication([2,3,5,4,3,2,6,7], 8)
+print(getDuplication([2,3,5,4,3,2,6,7], 8))
