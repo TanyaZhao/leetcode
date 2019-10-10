@@ -20,11 +20,11 @@ def twoSum(nums, target):
     #     else:
     #         continue
     dict = {}
-    for i in xrange(len(nums)):
+    for i in range(len(nums)):
         x = nums[i]
         if target - x in dict:
             return [dict[target - x], i]
         dict[x] = i
 
 
-print twoSum([3,5,3], 6)
+print(twoSum([3,5,3], 6))

@@ -1,5 +1,5 @@
 # coding:utf-8
-# 不修改数组，找出重复的数字
+# 剑指offer P39: 不修改数组，找出重复的数字
 def getDuplication(nums, length):
     if nums is None or length <= 0:
         return -1
